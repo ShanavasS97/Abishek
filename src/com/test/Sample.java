@@ -2,9 +2,13 @@ package com.test;
 
 public class Sample {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	private void m1() {
+		System.out.println("Shana......");
+	}
 
+	public static void main(String[] args) {
+		Sample s = new Sample();
+		s.m1();
 	}
 
 }
